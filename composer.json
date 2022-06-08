@@ -1,0 +1,37 @@
+{
+    "name": "darkeum/support",
+    "description": "Пакет вспомогательных классов и функции для Darklyy",
+    "license": "MIT",
+    "homepage": "https://darklyy.com",
+    "authors": [
+        {
+            "name": "Komarov Ivan",
+            "email": "ki@darkeum.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "nesbot/carbon": "^2.53.1",
+        "voku/portable-ascii": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Darkeum\\Support\\": ""
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "10.x-dev"
+        }
+    },  
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
